@@ -1,0 +1,315 @@
+{
+  "id": "677a2417-f477-4fe6-ae39-79a998084588",
+  "version": "2.0",
+  "name": "LibrarySystemTest",
+  "url": "http://localhost:3000/",
+  "tests": [{
+    "id": "5b5e33d1-15f6-40c3-8ae5-8cf6da3cd793",
+    "name": "Test01_LMS",
+    "commands": [{
+      "id": "e279229b-aeaf-41a4-8f43-8eb4127c7aa4",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1177b01b-9b8e-46f4-9439-8b77e91629d6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b06d12de-facf-4d0c-a4b3-a1a24cc10ab2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-900:nth-child(1) > .bg-gray-800:nth-child(1) > .font-semibold",
+      "targets": [
+        ["css=.bg-gray-900:nth-child(1) > .bg-gray-800:nth-child(1) > .font-semibold", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Total Books:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed6e34f3-d46e-477a-83a4-cf566a70791f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-700:nth-child(1)",
+      "targets": [
+        ["css=.bg-gray-700:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b34ef06-1898-4054-8067-fce69e9d5338",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-700:nth-child(2)",
+      "targets": [
+        ["css=.bg-gray-700:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f652b60f-99f9-404f-9ecf-8c7e963f803e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-700:nth-child(3)",
+      "targets": [
+        ["css=.bg-gray-700:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d379148-f617-4e8b-a08d-295ad5f25d45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lg\\3A block",
+      "targets": [
+        ["css=.lg\\3A block", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/h1/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Library Manager')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b25f1c23-8f31-438a-809c-e3faa76c81a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-900:nth-child(2) > .bg-gray-800:nth-child(1) > .font-semibold",
+      "targets": [
+        ["css=.bg-gray-900:nth-child(2) > .bg-gray-800:nth-child(1) > .font-semibold", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Checked Out Books:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fa6a101-3f2d-4906-8440-3846e7ef26cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-700",
+      "targets": [
+        ["css=.bg-gray-700", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b11363dc-71a8-4657-84fc-030bdf126aa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lg\\3A block",
+      "targets": [
+        ["css=.lg\\3A block", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/h1/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Library Manager')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e153fd5-c8a4-4a03-90c4-f2a4b2ce61a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-900:nth-child(1) > .bg-gray-800:nth-child(2) > p:nth-child(2)",
+      "targets": [
+        ["css=.bg-gray-900:nth-child(1) > .bg-gray-800:nth-child(2) > p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div[2]/p[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fb9874a-efaa-4f60-98cb-e7a8ca133d35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-700:nth-child(1)",
+      "targets": [
+        ["css=.bg-gray-700:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e75117c-8248-4b66-be80-1bf24e241a97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-700:nth-child(2)",
+      "targets": [
+        ["css=.bg-gray-700:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d50e6e89-4e09-4703-810a-171278666d9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-700:nth-child(3)",
+      "targets": [
+        ["css=.bg-gray-700:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a33df52-516e-4f0b-884d-0f7771754a68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lg\\3A block",
+      "targets": [
+        ["css=.lg\\3A block", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/h1/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Library Manager')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2505d8d6-808d-42de-a690-66259718840c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-blue-800",
+      "targets": [
+        ["css=.bg-blue-800", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2498089e-f3d2-4bf2-99a1-d3622d187378",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative:nth-child(2) .block:nth-child(1)",
+      "targets": [
+        ["css=.relative:nth-child(2) .block:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Update Book Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b3a1221-ddec-422a-ab74-8f786be41dfd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border",
+      "targets": [
+        ["css=.border", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07dbeadd-c494-4eb7-b9a9-d56419528d65",
+      "comment": "",
+      "command": "type",
+      "target": "css=.border",
+      "targets": [
+        ["css=.border", "css:finder"],
+        ["xpath=//input[@value='Harry Potter']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Harry Potter"
+    }, {
+      "id": "1d8d68fd-c186-457f-851a-efe7cffd6b3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-blue-700:nth-child(2)",
+      "targets": [
+        ["css=.bg-blue-700:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d07fc6c-fb87-423a-ba59-6fa5163c99cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-700",
+      "targets": [
+        ["css=.bg-gray-700", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7df53be7-12e0-458d-a9fc-63041dc038e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=price",
+      "targets": [
+        ["id=price", "id"],
+        ["name=price", "name"],
+        ["css=#price", "css:finder"],
+        ["xpath=//input[@id='price']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec003a20-85ea-4555-bf02-18aa870bbbee",
+      "comment": "",
+      "command": "type",
+      "target": "id=price",
+      "targets": [
+        ["id=price", "id"],
+        ["name=price", "name"],
+        ["css=#price", "css:finder"],
+        ["xpath=//input[@id='price']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/form/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "600"
+    }, {
+      "id": "3d5ef62d-6293-40d3-acd8-a1027958dee0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-blue-700:nth-child(2)",
+      "targets": [
+        ["css=.bg-blue-700:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c578490-4402-4002-9158-0e37f1d1d6e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lg\\3A block",
+      "targets": [
+        ["css=.lg\\3A block", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/h1/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Library Manager')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7808996c-24e7-46b9-a82c-c5506e8966e3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cb3fa56c-7565-47ef-b651-7382e2509a5f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
