@@ -3,7 +3,7 @@
 ## How to run the project
 1. Clone the repository
 ```
-git clone https://github.com/AdityaGahukar/ProjectHub_SE.git
+git clone https://github.com/AdityaGahukar/Library-Management-System.git
 ```
 2. Open the terminal and navigate to the project directory
 ```
